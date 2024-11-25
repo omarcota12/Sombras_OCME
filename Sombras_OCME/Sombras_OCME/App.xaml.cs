@@ -10,7 +10,7 @@ namespace Sombras_OCME
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Sombras();
         }
 
         protected override void OnStart()
