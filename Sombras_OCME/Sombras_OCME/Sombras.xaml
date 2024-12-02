@@ -5,13 +5,49 @@
              x:Class="Sombras_OCME.Sombras">
 
     <Grid>
-        <StackLayout Orientation="Vertical">
-            <sh:Shadows>
+        <StackLayout Orientation="Vertical"
+                     VerticalOptions="Center"
+                     Spacing="30">
+            <sh:Shadows CornerRadius="15" Shades="{sh:SingleShade Offset='10,10',
+                Opacity=0.2,
+                Color=#1588C6}">
                 <ImageButton WidthRequest="100"
                              HeightRequest="100"
                              HorizontalOptions="Center"
                              VerticalOptions="Center"
-                             BackgroundColor="#0066ff"/>
+                             BackgroundColor="#1588C6"
+                             CornerRadius="50"
+                             Source="https://i.ibb.co/HHWgLms/snorlax.png"
+                             Padding="13"
+                    />
+                </sh:Shadows>
+            <sh:Shadows CornerRadius="15" Shades="{sh:SingleShade Offset='10,10',
+    Opacity=0.2,
+    Color=#FFF800}">
+                <Frame WidthRequest="100"
+                 HeightRequest="100"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center"
+                 BackgroundColor="#FFF800"
+                 CornerRadius="50" >
+                    <Image Source="https://i.ibb.co/rwtNSmY/pikachu.png"/>
+
+                </Frame>
+
+            </sh:Shadows>
+            <sh:Shadows CornerRadius="15" 
+                        Shades="{sh:SingleShade Offset='0,8',
+                                                Opacity=0.2,
+                                                Color=#FF2D36}">
+                <BoxView WidthRequest="60"
+             HeightRequest="60"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             BackgroundColor="#FF2D36"
+             CornerRadius="50" />
+
+
+
             </sh:Shadows>
         </StackLayout>
     </Grid>
